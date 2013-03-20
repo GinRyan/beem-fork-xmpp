@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Generic terms -->
+<string name="app_name">Beem</string>
+<string name="OkButton">Ados</string>
+<string name="ClearButton">Garbitu</string>
+<string name="CancelButton">Utzi</string>
+<string name="AcceptButton">Baimendu</string>
+<string name="RefuseButton">Ukatu</string>
+<string name="JabberID">Jabber ID-a</string>
+<string name="Password">Pasahitza</string>
+<string name="Continue">Jarraitu</string>
+
+<!--  AccountConfigure class -->
+<string name="AccountConfigureManualConfiguration">Eskuzko konfigurazioa</string>
+
+<!--  BeemService class -->
+<string name="BeemServiceDescription">Erabili Beem zerbitzua</string>
+
+<!--  ContactDialog class -->
+<string name="CDChat">Berriketa</string>
+<string name="CDCall">Deia</string>
+<string name="CDInfos">Kudeatu erabiltzailea</string>
+
+<!-- AddContact class -->
+<string name="AddCActTitle">Beem - Gehitu kontaktu bat</string>
+
+<string name="AddCLogin">Erabiltzaile-izena</string>
+<string name="AddCAlias">Goitizena</string>
+<string name="AddCGroup">Taldea</string>
+<string name="AddCOkButton">Gehitu</string>
+<string name="AddCContactAdded">Kontaktua gehituta</string>
+<string name="AddCContactAddedError">Errorea: Kontaktua ez da gehitu</string>
+<string name="AddCContactAddedLoginError">Errorea saioa hastean</string>
+<string name="AddCContactAlready">Kontaktua dagoeneko existitzen da</string>
+
+<!--  ChangeStatus class -->
+<string name="ChangeStatusActTitle">Beem - Aldatu nire egoera</string>
+<string name="ChangeStatusType">Nire egoera</string>
+<string name="ChangeStatusMessage">Nire mezu pertsonala</string>
+<string name="OpenContactList">Ireki kontaktu zerrenda</string>
+
+<string name="ChangeStatusOk">Egoera eguneratzen</string>
+<string name="my_avatar">Nire avatar-a</string>
+<string name="select_avatar">Aukeratu zure avatar-a</string>
+<string name="take_photo">Egin argazki bat</string>
+<string name="pick_photo">Hautatu irudi bat</string>
+<string name="delete_avatar">Avatar-ik ez</string>
+<string name="photoPickerNotFoundText">Ez da argazki hautatzailerik aurkitu</string>
+
+
+<!-- Settings class -->
+<string name="SettingsProxy">Proxy-a</string>
+<string name="SettingsProxyProxy">Erabili proxy zerbitzari bat</string>
+<string name="SettingsProxySummary">Hasi saioa proxy zerbitzari bidez</string>
+<string name="SettingsProxyType">Protokoloa</string>
+<string name="SettingsProxyTypeSummary">Aukeratu proxy zerbitzari mota</string>
+<string name="SettingsProxyServer">Editatu proxy zerbitzariaren helbidea</string>
+<string name="SettingsProxyPort">Editatu proxy zerbitzariaren ataka</string>
+<string name="SettingsProxyUser">Hautazkoa, onartu zeure burua proxy zerbitzarian autentifikatzea</string>
+<string name="SettingsProxyPassword">Hautazkoa, onartu zeure burua proxy zerbitzarian autentifikatzea</string>
+<string name="SettingsAdvanced">Aurreratua</string>
+<string name="SettingsAdvancedOptions">Zerbitzari jakin bat aukera</string>
+<string name="SettingsAdvancedRecoDelay">Aldatu birkonexio atzerapena</string>
+<string name="SettingsAdvancedSpecOpt">Hautatu hau zure konexioan zerbitzari jakin bat erabili nahi baduzu</string>
+<string name="SettingsAdvancedAddOpt">Editatu zerbitzariaren helbidea</string>
+<string name="SettingsAdvancedPortOpt">Editatu zerbitzariaren ataka</string>
+<string name="SettingsResourceTitle">Baliabidea</string>
+<string name="SettingsPriorityTitle">Lehentasuna</string>
+<string name="SettingsResourceSummary">Ezarri zure bezeroaren XMPP baliabidea</string>
+<string name="SettingsPrioritySummary">Ezarri zure bezeroaren lehentasuna</string>
+<string name="contact_list_preferences">Lagun zerrenda</string>
+<string name="contact_list_preferences_sum">A set of display options for your buddy list
+</string>
+<string name="CLP_hide_groups">Ezkutatu taldeak</string>
+<string name="CLP_hide_groups_sum">Hautatu aukera hau taldeak ezkutatzeko</string>
+<string name="CLP_show_jid">Erakutsi JID</string>
+<string name="CLP_show_jid_sum">Hautatu aukera hau kontaktuaren JIDa beti erakusteko</string>
+<string name="CLP_hidden_contact">Ezkutatu lagunak</string>
+<string name="CLP_hidden_contact_sum">Check this option to hide unconnected buddies
+</string>
+<string name="settings_account_username">Erabiltzaile-izena (JID)</string>
+<string name="settings_account_password">Pasahitza</string>
+<string name="settings_account_server">Zerbitzaria</string>
+<string name="settings_account_port">Ataka</string>
+<string name="settings_advanced_service_behaviour">Zerbitzuaren portaera</string>
+<string name="settings_advanced_sum">Erabiltzaile aurreratuentzako aukera sorta bat</string>
+<string name="settings_xmpp_server">Helbidea</string>
+<string name="comments_xmpp_server">adibidea.com</string>
+<string name="settings_xmpp_port">Ataka</string>
+<string name="settings_xmpp_use_tls">SSL/TLS behar du</string>
+<string name="settings_reco_delay">Birkonexio atzerapena</string>
+<string name="comments_xmpp_port">Lehenetsia: 5222</string>
+<string name="settings_proxy_sum">Proxy-aren erabilera ezarpenak</string>
+<string name="settings_proxy_use">Konektatu proxy bat erabiliz</string>
+<string name="settings_proxy_type_prompt">Aukeratu proxy mota bat</string>
+<string name="settings_proxy_server">Zerbitzaria</string>
+<string name="settings_proxy_port">Ataka</string>
+<string name="comments_proxy_port">Lehenetsia: 1080</string>
+<string name="settings_proxy_username">Erabiltzaile-izena</string>
+<string name="settings_proxy_password">Pasahitza</string>
+<string name="away_chk_title">Gaitu automatikoki aldenduta</string>
+<string name="away_chk_sum">Ezarri Aldendua egoera pantaila itzaltzean</string>
+<string name="away_message_title">Aldendua mezua</string>
+<string name="away_message_sum">Bistaratuko den Aldendua mezua</string>
+<string name="away_message_hint">Aldendua nago, nire mugikorraren pantaila itzalita dago</string>
+<string name="notification_preferences">Jakinarazpenen ezarpenak</string>
+<string name="notification_enable_vibrate_title">Gaitu bibrazioa</string>
+<string name="notification_enable_vibrate_sum">Gaitu bibrazioa sarrerako mezuetan</string>
+<string name="notification_snd_title">Mezuaren tonua</string>
+<string name="notification_snd_sum">Ezarri sarrerako mezuen tonua</string>
+<string name="settings_chat_compact">Berriketa trinkoa</string>
+<string name="settings_chat_compact_sum">Ezarri berriketa leiho trinkoa</string>
+<string name="history">Historia</string>
+<string name="history_sum">Hautatu hau berriketak SD txartelean gordetzeko</string>
+<string name="chat_preferences">Berriketa</string>
+<string name="chat_preferences_sum">Historia, diseinuaren tamaina</string>
+<string name="chat_history_path">Historia bidea</string>
+<string name="chat_history_path_sum">Berriketa elkarrizketak SD txarteleko karpeta batean gordetzen dira</string>
+<string name="settings_smack_debug">Gaitu XMPP arazketa</string>
+<string name="settings_full_jid_login">Erabili nire JID osoa erabiltzaile-izen bezala</string>
+<string name="settings_full_jid_login_sum">Google Talk bezalako zenbait zerbitzarik behar dute</string>
+
+<!-- Subscription class -->
+<string name="SubscriptAccept">Harpidetza onartuta</string>
+<string name="SubscriptError">Harpidetza errorea</string>
+<string name="SubscriptRefused">Harpidetza errefusatuta</string>
+<string name="SubscriptText">%s-(e)k bere lagun zerrendara gehitu nahi zaitu. Baimendu nahi duzu?</string>
+<string name="SubscriptTitle">Laguna baimendu?</string>
+
+<!--  BeemBroadcastReceiver class -->
+<string name="BeemBroadcastReceiverDisconnect">BEEM: Deskonektatua izan zara</string>
+
+<!--  XmppConnectionAdapter class -->
+<string name="AcceptContactRequest">%s-(e)k bere lagun zerrendara gehitu zaitu oraintxe.</string>
+<string name="AcceptContactRequestFrom">Baimendu %s-(e)k zurekin kontaktatzea.</string>
+
+<!-- Activities -->
+<string name="edit_settings_name">Beem - Ezarpenak</string>
+<string name="create_account_name">Beem - Sortu kontu bat</string>
+<string name="contact_list_name">Beem - Kontaktuak</string>
+<string name="user_info_name">Beem - Erabiltzailearen informazioa</string>
+
+<!-- LogAs Activity -->
+<string name="login_menu_settings">Ezarpenak</string>
+<string name="login_menu_about">Honi buruz</string>
+<string name="login_about_title">Beem %s - Honi buruz</string>
+<string name="login_about_msg">
+Beem is an EPITECH Innovative Project. Visit us at
+http://www.beem-project.com !
+</string>
+<string name="login_about_button">Itxi</string>
+<string name="login_login_progress">Konektatzen. Itxaron mesedez...</string>
+<string name="login_menu_login">Hasi saioa</string>
+<string name="login_start_msg">Ezarpenen konfigurazioa menuan</string>
+
+<!-- LoginAnim activity -->
+<string name="loganim_connecting">Konektatzen...</string>
+<string name="loganim_authenticating">Autentifikatzen...</string>
+<string name="loganim_login_success">Saio hasiera arrakastatsua</string>
+<string name="loganim_login_failed">Saio hasierak huts egin du</string>
+
+<!-- EditSettings Activity -->
+<string name="settings_menu_create_account">Sortu kontu bat</string>
+<string name="settings_menu_privacy_lists">Kudeatu nire pribatutasun zerrendak</string>
+<string name="settings_saved_ok">Ezarpenak behar bezala gorde dira.</string>
+
+
+
+<!-- EditSettings Activity Categories -->
+<string name="general_preferences">Hobespen orokorrak</string>
+<string name="user_preferences">Erabiltzailearen ezarpenak (beharrezkoa)</string>
+<string name="user_preferences_advanced">Erabiltzailearen ezarpen aurreratuak (hautazkoa)</string>
+<string name="network_preferences">Sarearen aukerak</string>
+<string name="proxy_proxy_settings">Proxy-aren aukerak</string>
+<string name="proxy_user_settings">Proxy-aren aukerak</string>
+<string name="history_preferences">Historia</string>
+<string name="chat_layout_option">Berriketaren diseinua</string>
+
+
+<!-- EditSettings Activity Tabs -->
+<string name="settings_tab_tag_account">editatu_ezarpenak_kontua_fitxa</string>
+<string name="settings_tab_label_account">Kontua</string>
+<string name="settings_tab_tag_xmpp">editatu_ezarpenak_xmpp_fitxa</string>
+<string name="settings_tab_label_xmpp">XMPP</string>
+<string name="settings_tab_tag_proxy">editatu_ezarpenak_proxy_fitxa</string>
+<string name="settings_tab_label_proxy">Proxy-a</string>
+
+
+<!-- wizard activities -->
+<string name="account_wizard_text1"><b>Ongietorri BEEM-era.</b>nnEz duzu XMPP (Jabber) konturik konfiguratu oraindik.nAukeratu ondorengo aukeretako bat:</string>
+<string name="account_wizard_configure_text_1">Erabili gailuan gordetako kontu bat</string>
+<string name="account_wizard_configure_text_2"><b>edo</b></string>
+<string name="account_wizard_configure_text_3">Bete existitzen den zure kontuaren datuak</string>
+<string name="account_wizard_settings_warn"><b>Abisua: </b>Zure ezarpenetan proxy-zerbitzari bat edo ostalari-izen jakin bat duen zerbitzaria erabiltzeko aukera ezarrita daukazu.</string>
+<string name="account_wizard_connection_failed"><b>Ezin izan da zure kontua autentifikatu. Mesedez egiaztatu zure kredentzialak</b></string>
+<string name="account_wizard_select_account_btn">Aukeratu kontu bat</string>
+
+<string name="account_wizard_configure_account">Dagoeneko badut erabili nahi dudan kontu bat</string>
+<string name="account_wizard_create_account">Kontu berri bat erregistratu nahi dut</string>
+
+<!-- Create an account Activity -->
+<string name="create_account_text">Sartu zure kontua sortzeko beharrezko den informazioa</string>
+<string name="create_account_progress_title">Kontua sortzen</string>
+<string name="create_account_progress_message">Mesedez itxaron</string>
+<string name="create_account_err_username">JabberID okerra</string>
+<string name="create_account_err_passwords">Pasahitzak ez datoz bat.</string>
+<string name="create_account_username">Erabiltzaile-izena</string>
+<string name="create_account_password">Pasahitza</string>
+<string name="create_account_confirm_password">Berretsi pasahitza</string>
+<string name="create_account_err_conflict">Kontu hau dagoeneko erabiltzen da. Mesedez saiatu beste batekin</string>
+<string name="create_account_err_connection">Hautatutako zerbitzaria ez dago erabilgarri. Mesedez saiatu beste batekin</string>
+
+
+<!-- ContactList Activity  -->
+<string name="contact_list_menu_add_contact">Gehitu kontaktu bat</string>
+<string name="contact_list_menu_status">Aldatu egoera</string>
+<string name="contact_list_menu_settings">Ezarpenak</string>
+<string name="contact_list_menu_disconnect">Deskonektatu</string>
+<string name="contact_list_all_contact">Kontaktu guztiak</string>
+<string name="contact_list_no_group">Talderik ez</string>
+
+<!-- UserInfo dialog -->
+<string name="userinfo_label_alias">Goitizena</string>
+<string name="userinfo_label_chg_group">Kudeatu taldeak</string>
+<string name="userinfo_label_re_subscription">Birbidali gonbidapena</string>
+<string name="userinfo_label_block">Blokeatu</string>
+<string name="userinfo_label_delete">Ezabatu</string>
+<string name="userinfo_resend">Harpidetza birbidalita</string>
+<string name="userinfo_sure2delete">Are you sure you want to delete this contact?
+</string>
+<string name="userinfo_yes">Bai</string>
+<string name="userinfo_no">Ez</string>
+<string name="userinfo_sureresend">Ziur zaude gonbidapena birbidali nahi duzula?</string>
+
+<string name="chat_name">Beem - Berriketa</string>
+<string name="chat_input_default_value">Idatzi zure mezua</string>
+<string name="chat_self">Ni</string>
+<string name="chat_error">Errorea</string>
+<string name="chat_send_message">Bidali</string>
+<string name="chat_menu_contacts_list">Kontaktu zerrenda</string>
+<string name="chat_menu_change_chat">Aldatu berriketa</string>
+<string name="chat_menu_start_otr_session">Hasi OTR saioa</string>
+<string name="chat_menu_stop_otr_session">Gelditu OTR saioa</string>
+<string name="chat_menu_otr_verify_key">OTR egiaztatu gakoa</string>
+<string name="chat_menu_otr_submenu">OTR ekintzak</string>
+<string name="chat_dialog_change_chat_title">Irekitako berriketak</string>
+<string name="chat_menu_close_chat">Itxi berriketa hau</string>
+<string name="chat_no_more_chats">Ez dago berriketa aktibo gehiago</string>
+<string name="chat_state_composing">mezu bat osatzen ari da</string>
+<string name="chat_state_gone">-(e)k elkarrizketa utzi du</string>
+<string name="chat_state_active">elkarrizketa jarraitzen ari da</string>
+<string name="chat_state_inactive">beste zerbait egiten ari da</string>
+<string name="chat_otrstate_plaintext">TESTULAUA</string>
+<string name="chat_otrstate_encrypted">ZIFRATUTA</string>
+<string name="chat_otrstate_finished">AMAITUTA</string>
+<string name="chat_otrstate_authenticated">AUTENTIFIKATUTA</string>
+<string name="chat_otr_verify_key" formatted="false">
+Authenticating a buddy helps ensure that the person you are talking to is who they claim to be.\n\n
+To verify the fingerprint, contact your buddy via some <i>other</i> authenticated channel, such as the telephone or GPG-signed email.  Each of you should tell your fingerprint to the other.\n\n
+If everything matches up, you should indicate in the above dialog that you <b>have</b> verified the fingerprint.\n\n
+Local fingerprint %s\n\nRemote fingerprint %s\n\nVerify fingerprint ?</string>
+
+<string name="contact_status_msg_available">Eskuragarri</string>
+<string name="contact_status_msg_available_chat">Eskuragarri berriketarako</string>
+<string name="contact_status_msg_dnd">Ez eragotzi</string>
+<string name="contact_status_msg_away">Aldendua</string>
+<string name="contact_status_msg_xa">Eskuraezin</string>
+<string name="contact_status_msg_offline">Deskonektatuta</string>
+
+<string name="privacy_list_name">Beem - Kudeatu nire pribatutasun zerrendak</string>
+<string name="privacy_list_no_data">Ez dago pribatutasun zerrendarik erregistratuta.</string>
+<string name="privacy_list_menu_create">Sortu pribatutasun zerrenda bat</string>
+<string name="privacy_list_create_dialog_title">Sortu pribatutasun zerrenda bat</string>
+<string name="privacy_list_create_dialog_list_name_label">Izenburua</string>
+<string name="privacy_list_create_dialog_create_button">Sortu</string>
+<string name="privacy_list_select_dialog_buddies">Lagunak</string>
+<string name="privacy_list_select_dialog_groups">Taldeak</string>
+<string name="privacy_list_select_dialog_delete">Ezabatu</string>
+<string name="privacy_list_delete_dialog_msg">Ziur zaude \'%s\' izeneko pribatutasun zerrenda ezabatu nahi duzula?</string>
+<string name="privacy_list_delete_dialog_yes">Bai</string>
+<string name="privacy_list_delete_dialog_no">Ez</string>
+
+<string name="UpdateButton">Eguneratu</string>
+
+<!-- MemorizingTrustManager library -->
+<string name="mtm_accept_cert">Ziurtagiri ezezaguna onartu?</string>
+<string name="mtm_decision_always">Beti</string>
+<string name="mtm_decision_once">Behin</string>
+<string name="mtm_decision_abort">Abortatu</string>
+
+<string name="mtm_notification">Ziurtagiriaren egiaztapena</string>
+
+<!-- Error messages -->
+
+<string name="error_login_authentication">Errorea autentifikatzean, erabiltzaile edo pasahitz okerra</string>
+
+<string name="interna_server_error">Urruneko zerbitzariaren errorea</string>
+<string name="bad_request">eskaera-okerra</string>
+<string name="forbidden">debekatua</string>
+<string name="item_not_found">elementua-ez-da-aurkitu</string>
+<string name="conflict">gatazka</string>
+<string name="feature_not_implemented">inplementatu-gabeko-ezaugarria</string>
+<string name="gone">joana</string>
+<string name="jid_malformed">gaizki-osatutako-jid</string>
+<string name="no_acceptable">onartezina</string>
+<string name="not_allowed">ez-onartua</string>
+<string name="not_authorized">ez-baimendua</string>
+<string name="payment_required">ordainketa-beharrezkoa</string>
+<string name="recipient_unavailable">hartzaile-eskuraezina</string>
+<string name="redirect">birbideratu</string>
+<string name="registration_required">erregistratzea-beharrezkoa</string>
+<string name="remote_server_not_found">Ez da urruneko zerbitzaria aurkitu</string>
+<string name="remote_server_timeout">Zerbitzariaren erantzunik ez</string>
+<string name="remote_server_error">Urruneko zerbitzariaren errorea</string>
+<string name="resource_constraint">baliabide-mugatua</string>
+<string name="service_unavailable">zerbitzu-eskuraezina</string>
+<string name="subscription_required">harpidetza-beharrezkoa</string>
+<string name="undefined_condition">definitu-gabeko-baldintza</string>
+<string name="unexpected_condition">ustekabeko-baldintza</string>
+<string name="request_timeout">eskaeraren-denbora-muga</string>
+</resources>
